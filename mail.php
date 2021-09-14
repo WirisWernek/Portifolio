@@ -11,7 +11,7 @@ $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email. "\r\n".
         "Mensagem: ".$mensagem;
 
-$header = "From: wiris@000webhostapp.com"."\r\n"."Reply-To: ".$email."\e\n"."X=Mailer:PHP/".phpversion();
+$header = "From: wiris@wiriswernek.github.io"."\r\n"."Reply-To: ".$email."\e\n"."X=Mailer:PHP/".phpversion();
 
 if (mail($to,$subject,$body,$header)){
     echo("Email enviado com sucesso!");
